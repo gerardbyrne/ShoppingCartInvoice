@@ -45,6 +45,5 @@ public class CreateASale
         System.out.println("              \t\t\t\t\t\t\t______");
         System.out.println("Invoice Total\t\t\t\t\t\t\t£ " + customerInvoice.calculateTotalCost());
         System.out.println("              \t\t\t\t\t\t\t______");
-
     }
 }
