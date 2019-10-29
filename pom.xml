@@ -6,6 +6,7 @@
 
     <groupId>gerry.tdd.shoppingcart</groupId>
     <artifactId>ShoppingCartInvoice</artifactId>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -18,8 +19,22 @@
                     <target>7</target>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>src.main.java.CreateASale</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
         </plugins>
+
     </build>
+
 <!--
     To avoid getting an error or warning emitted by a plugin that processes
     plain text files but has not been configured to use a specific file
