@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf48ed14-8947-4068-9b2b-82ae000c7b2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +150,7 @@
       <updated>1572088841350</updated>
       <workItem from="1572088846525" duration="3032000" />
       <workItem from="1572180013705" duration="21140000" />
-      <workItem from="1572280097073" duration="19127000" />
+      <workItem from="1572280097073" duration="20672000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <created>1572304212622</created>
@@ -203,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572351118650</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added a manifest so we have main class for jar executable">
+      <created>1572353606718</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572353606718</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +230,8 @@
     <MESSAGE value="My second commit" />
     <MESSAGE value="Added Maven Compiler Plugin Version 3.7.0 tag in pom.xml" />
     <MESSAGE value="Added propertie for UTF-8 in pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added propertie for UTF-8 in pom.xml" />
+    <MESSAGE value="Added a manifest so we have main class for jar executable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a manifest so we have main class for jar executable" />
   </component>
   <component name="masterDetails">
     <states>
