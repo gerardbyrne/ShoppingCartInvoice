@@ -8,6 +8,26 @@
     <artifactId>ShoppingCartInvoice</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!--
+    To avoid getting an error or warning emitted by a plugin that processes
+    plain text files but has not been configured to use a specific file
+    encoding it is a matter of finding out which plugin emits it and how to
+    configure the file encoding for it. Adding the following property to
+    our POM will work:
+-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -23,6 +43,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -34,25 +55,5 @@
         </plugins>
 
     </build>
-
-<!--
-    To avoid getting an error or warning emitted by a plugin that processes
-    plain text files but has not been configured to use a specific file
-    encoding it is a matter of finding out which plugin emits it and how to
-    configure the file encoding for it. Adding the following property to
-    our POM will work:
--->
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
 </project>
