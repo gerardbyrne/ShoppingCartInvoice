@@ -20,6 +20,16 @@
             </plugin>
         </plugins>
     </build>
+<!--
+    To avoid getting an error or warning emitted by a plugin that processes
+    plain text files but has not been configured to use a specific file
+    encoding it is a matter of finding out which plugin emits it and how to
+    configure the file encoding for it. Adding the following property to
+    our POM will work:
+-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencies>
         <dependency>
