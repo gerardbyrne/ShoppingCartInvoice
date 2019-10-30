@@ -9,6 +9,8 @@
         <module name="ShoppingCartInvoice" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel>
+      <module name="ShoppingCartInvoice" target="7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

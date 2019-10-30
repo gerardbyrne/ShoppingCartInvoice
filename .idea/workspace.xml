@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf48ed14-8947-4068-9b2b-82ae000c7b2d" name="Default Changelist" comment="">
+    <list default="true" id="679307eb-bdff-425d-acc9-35a00fd7dd68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/InvoiceTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/InvoiceTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ShoppingCartInvoiceTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ShoppingCartInvoiceTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-InvoiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-InvoiceTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ShoppingCartInvoiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ShoppingCartInvoiceTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CreateASale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CreateASale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Invoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShoppingCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InvoiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InvoiceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingCartInvoiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingCartInvoiceTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,42 +20,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
     </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1SmsG8A31TMKTYYqeBrTLZKb7bt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1Sti2pbjqBF0KNkETTh087xKuua" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\Courses\Course - Technical Excellence\02.Materials\06.Code\2019AllCode\96.ShoppingCartInvoice" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -65,23 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateASale">
-    <configuration name="CreateASale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreateASale" />
-      <module name="ShoppingCartInvoice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvoiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShoppingCartInvoice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InvoiceTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="ShoppingCartInvoiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingCartInvoice" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,55 +71,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartInvoiceTests.testAddSingleProductToShoppingCart1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShoppingCartInvoice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCartInvoiceTests" />
-      <option name="METHOD_NAME" value="testAddSingleProductToShoppingCart1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AllTests" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="surefire:test" />
-                <option value="-Dtest=*.java" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.InvoiceTests" />
-      <item itemvalue="JUnit.ShoppingCartInvoiceTests" />
-      <item itemvalue="JUnit.ShoppingCartInvoiceTests.testAddSingleProductToShoppingCart1" />
-      <item itemvalue="Maven.AllTests" />
-      <item itemvalue="Application.CreateASale" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateASale" />
-        <item itemvalue="JUnit.InvoiceTests" />
         <item itemvalue="JUnit.ShoppingCartInvoiceTests" />
-        <item itemvalue="JUnit.ShoppingCartInvoiceTests.testAddSingleProductToShoppingCart1" />
       </list>
     </recent_temporary>
   </component>
@@ -148,79 +82,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf48ed14-8947-4068-9b2b-82ae000c7b2d" name="Default Changelist" comment="" />
-      <created>1572088841350</created>
+      <changelist id="679307eb-bdff-425d-acc9-35a00fd7dd68" name="Default Changelist" comment="" />
+      <created>1572389088535</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572088841350</updated>
-      <workItem from="1572088846525" duration="3032000" />
-      <workItem from="1572180013705" duration="21140000" />
-      <workItem from="1572280097073" duration="23437000" />
+      <updated>1572389088535</updated>
+      <workItem from="1572389090124" duration="44000" />
+      <workItem from="1572426646570" duration="4401000" />
     </task>
-    <task id="LOCAL-00001" summary="My first commit">
-      <created>1572304212622</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1572304212622</updated>
-    </task>
-    <task id="LOCAL-00002" summary="My first commit">
-      <created>1572305120941</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1572305120941</updated>
-    </task>
-    <task id="LOCAL-00003" summary="My second commit">
-      <created>1572305768902</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1572305768902</updated>
-    </task>
-    <task id="LOCAL-00004" summary="My second commit">
-      <created>1572306086632</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1572306086632</updated>
-    </task>
-    <task id="LOCAL-00005" summary="My second commit">
-      <created>1572306168670</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1572306168670</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added Maven Compiler Plugin Version 3.7.0 tag in pom.xml">
-      <created>1572350662489</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1572350662489</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added propertie for UTF-8 in pom.xml">
-      <created>1572351118650</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1572351118650</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added a manifest so we have main class for jar executable">
-      <created>1572353606718</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1572353606718</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added a manifest so we have main class for jar executable">
-      <created>1572374896167</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1572374896167</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,45 +100,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="My first commit" />
-    <MESSAGE value="My second commit" />
-    <MESSAGE value="Added Maven Compiler Plugin Version 3.7.0 tag in pom.xml" />
-    <MESSAGE value="Added propertie for UTF-8 in pom.xml" />
-    <MESSAGE value="Added a manifest so we have main class for jar executable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a manifest so we have main class for jar executable" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
